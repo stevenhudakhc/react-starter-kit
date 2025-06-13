@@ -47,17 +47,12 @@ export default function Welcome() {
                     <p> {stream_data.head_description} </p>
 
 
-                  <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-                  {stream_data.landing_h1}
-                  </h1>
+                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+                    {stream_data.closed_h1}
+                    </h1>
 
-                  <p> {stream_data.landing_p1} </p>
-                  <p> {stream_data.landing_p2} </p>
-
-                  <p> {stream_data.landing_p3} </p>
-
-
-
+                    <p> {stream_data.closed_p1} </p>
+                    <p> {stream_data.closed_p2} </p>
 
 
 

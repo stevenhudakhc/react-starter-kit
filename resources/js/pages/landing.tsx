@@ -1,7 +1,7 @@
 import { type SharedData } from '@/types';
 import { Head, Link, usePage } from '@inertiajs/react';
 
-export default function Welcome() {
+export default function Landing() {
     const { auth } = usePage<SharedData>().props;
 
     return (
@@ -43,8 +43,9 @@ export default function Welcome() {
                         <div className="flex-1 rounded-br-lg rounded-bl-lg bg-white p-6 pb-12 text-[13px] leading-[20px] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:rounded-tl-lg lg:rounded-br-none lg:p-20 dark:bg-[#161615] dark:text-[#EDEDEC] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]">
                             <h1 className="mb-1 font-medium">Let's get started</h1>
                             <p className="mb-2 text-[#706f6c] dark:text-[#A1A09A]">
-Human Contact Streaming On Demand                                <br />
-                                We suggest registering and reading how to stream.
+                                Laravel has an incredibly rich ecosystem.
+                                <br />
+                                We suggest starting with the following.
                             </p>
                             <ul className="mb-4 flex flex-col lg:mb-6">
                                 <li className="relative flex items-center gap-4 py-2 before:absolute before:top-1/2 before:bottom-0 before:left-[0.4rem] before:border-l before:border-[#e3e3e0] dark:before:border-[#3E3E3A]">
@@ -78,13 +79,10 @@ Human Contact Streaming On Demand                                <br />
                                         </a>
                                     </span>
                                 </li>
-
+                              
                             </ul>
                         </div>
-                        <div className="relative -mb-px aspect-[335/376] w-full shrink-0 overflow-hidden rounded-t-lg bg-[#fff2f2] lg:mb-0 lg:-ml-px lg:aspect-auto lg:w-[438px] lg:rounded-t-none lg:rounded-r-lg dark:bg-[#1D0002]">
 
-                            <div className="absolute inset-0 rounded-t-lg shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:rounded-t-none lg:rounded-r-lg dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]" />
-                        </div>
                     </main>
                 </div>
                 <div className="hidden h-14.5 lg:block"></div>
